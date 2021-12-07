@@ -1,5 +1,2 @@
-# Instructions
-
- - Clone the repo
- - Make changes
- - Deploy to gh pages using: npm run deploy
+# Contents
+Serves as a redirect to my website.
