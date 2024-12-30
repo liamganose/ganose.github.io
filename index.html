@@ -3,23 +3,43 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Big Fat Quiz</title>
+  <title>Image Gallery</title>
   <style>
     body {
+      font-family: Arial, sans-serif;
       margin: 0;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      height: 100vh;
+      padding: 20px;
       background-color: #f0f0f0;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
     }
-    img {
-      max-width: 100%;
-      height: auto;
+    h1 {
+      color: #333;
+    }
+    .image-list {
+      list-style-type: none;
+      padding: 0;
+    }
+    .image-list li {
+      margin: 10px 0;
+    }
+    .image-list a {
+      text-decoration: none;
+      color: #0066cc;
+      font-size: 18px;
+    }
+    .image-list a:hover {
+      text-decoration: underline;
     }
   </style>
 </head>
 <body>
-  <img src="assets/picture-round.jpeg">
+  <h1>Quiz Bank</h1>
+  <ul class="image-list">
+    <li><a href="assets/picture-round.jpeg" target="_blank">Alex's Friends Picture Round</a></li>
+    <li><a href="assets/actor-mash.png" target="_blank">Actor Mashups</a></li>
+    <li><a href="assets/lego-round.png" target="_blank">Lego Round</a></li>
+  </ul>
 </body>
 </html>
